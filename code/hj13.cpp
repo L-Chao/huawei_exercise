@@ -8,7 +8,9 @@ using namespace std;
 class Soultion{
 public:
     string reverse(string str){
-        istringstream ss(str);
+        //istringstream ss(str);
+        stringstream ss;
+        ss << str;
         string s;
         string res;
         while(ss >> s){
